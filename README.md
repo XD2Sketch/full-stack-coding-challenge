@@ -1,6 +1,10 @@
-# Magicul 🧙‍♂️ Full Stack Coding Challenge
+![magicul-logo](https://user-images.githubusercontent.com/5519740/102984834-a3dad200-4527-11eb-83da-237d3c63cea9.png)
+
+# Full Stack Coding Challenge
 
 The goal of this coding challenge is to demonstrate your skills developing an application across the entire stack (frontend, backend and even a bit of database knowledge).
+
+We wish magicul coding 🚀🧙‍
 
 ## General Tech Bla Bla
 We’ve designed the technical requirements to match the stack that we currently work with:
@@ -45,10 +49,11 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 
 #### Frontend:
 - NextJS + State Management (ContextAPI/Redux/MobX/xState, … knock yourself out)
-- Validation on forms
 
 #### Backend:
+- Fastify or Express
 - ORM (TypeORM is recommended)
+- Defined REST endpoints
 
 ### Nice to have
 - Clean code (run linters, prettier)
