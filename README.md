@@ -9,7 +9,7 @@ We wish magicul coding 🚀🧙‍
 ## General Tech Bla Bla
 We’ve designed the technical requirements to match the stack that we currently work with:
 - NextJS with TypeScript
-- Fastify with TypeScript
+- NodeJS with TypeScript
 - PostgreSQL connected with TypeORM
 
 The architecture will be split between frontend and backend into two separate repositories (no mono-repo). The communication should be implemented using a RESTful API.
@@ -36,7 +36,7 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 
 - Frontend: https://github.com/XD2Sketch/typescript-nextjs-starter
 
-_Notice:_ Parts of the frontend have already been implemented
+  _Notice:_ Parts of the frontend have already been implemented
 
 - Backend: Feel free to pick a boilerplate that includes TypeScript for your prefered framework
 
@@ -54,7 +54,7 @@ _Notice:_ Parts of the frontend have already been implemented
 - No tests on the frontend
 
 #### Backend:
-- Fastify or Express
+- Fastify, Express, Nest
 - ORM (TypeORM is recommended)
 - Defined REST endpoints
 - Schema Validation
