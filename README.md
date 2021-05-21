@@ -34,11 +34,11 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 
 ## Boilerplates to get you started
 
-### Frontend: https://github.com/XD2Sketch/typescript-nextjs-starter
+- Frontend: https://github.com/XD2Sketch/typescript-nextjs-starter
 
-Parts of the frontend have already been implemented
+_Notice:_ Parts of the frontend have already been implemented
 
-### Backend: Feel free to pick a boilerplate that includes TypeScript for your prefered framework
+- Backend: Feel free to pick a boilerplate that includes TypeScript for your prefered framework
 
 ## Stuff we will pay attention to
 
@@ -47,6 +47,7 @@ Parts of the frontend have already been implemented
 #### Frontend & Backend
 - TypeScript
 - Usage of modern js functionality (ES6+)
+- README how your stuff works
 
 #### Frontend:
 - NextJS + State Management (ContextAPI/Redux/MobX/xState, … knock yourself out)
@@ -62,7 +63,6 @@ Parts of the frontend have already been implemented
 
 ### Nice to have
 - Clean code (run linters, prettier)
-- Add some tests
 - Conventional Commit Messages
 - Gitflow Branch Naming
 - Swagger
@@ -82,4 +82,4 @@ Parts of the frontend have already been implemented
 - Handling unexpected errors or potential exceptions
 
 ## Host it!
-The hosting is up to you, but we recommend using Heroku for the backend and Vercel for the frontend. If you use heroku then you can use Heroku Postgres otherwise ElephantSQL has a free plan to let you create a hosted managed PostgreSQL database (we use that actually at Magicul).
+The hosting won't be part of this challenge.
