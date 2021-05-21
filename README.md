@@ -17,7 +17,6 @@ The architecture will be split between frontend and backend into two separate re
 ## What the tool does
 You’ll be building a tool that allows users to upload metadata (file name, file size, file type) of files. The files themselves are not uploaded at all. The frontend then also shows all metadata that was previously uploaded. 
 
-![Desktop HD](https://user-images.githubusercontent.com/5519740/119175937-c3d8d800-ba6a-11eb-8cf5-53a49a981435.jpg)
 ![Desktop HD 2](https://user-images.githubusercontent.com/5519740/119175947-c5a29b80-ba6a-11eb-8dc9-0b8b7349163f.jpg)
 
 ### Acceptance Criteria:
@@ -35,9 +34,11 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 
 ## Boilerplates to get you started
 
-### Frontend:
+### Frontend: https://github.com/XD2Sketch/typescript-nextjs-starter
 
-### Backend:
+Parts of the frontend have already been implemented
+
+### Backend: Feel free to pick a boilerplate that includes TypeScript for your prefered framework
 
 ## Stuff we will pay attention to
 
@@ -49,17 +50,23 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 
 #### Frontend:
 - NextJS + State Management (ContextAPI/Redux/MobX/xState, … knock yourself out)
+- No tests on the frontend
 
 #### Backend:
 - Fastify or Express
 - ORM (TypeORM is recommended)
 - Defined REST endpoints
+- Schema Validation
+- Some Tests
+- Async/Await
 
 ### Nice to have
 - Clean code (run linters, prettier)
 - Add some tests
 - Conventional Commit Messages
 - Gitflow Branch Naming
+- Swagger
+- ESM over CommonJS (also backend if possible)
 
 ### Very nice to have:
 - Github Actions to run linting and tests
