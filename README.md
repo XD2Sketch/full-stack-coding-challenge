@@ -51,7 +51,6 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 
 #### Frontend:
 - NextJS + State Management (ContextAPI/Redux/MobX/xState, … knock yourself out)
-- No tests on the frontend
 
 #### Backend:
 - Fastify, Express, Nest
@@ -80,6 +79,3 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 - Working in accordance with good practices in general
 - How you communicate with API
 - Handling unexpected errors or potential exceptions
-
-## Host it!
-The hosting won't be part of this challenge.
