@@ -10,7 +10,7 @@ We wish magicul coding 🚀🧙‍
 We’ve designed the technical requirements to match the stack that we currently work with:
 - NextJS with TypeScript
 - NodeJS with TypeScript
-- PostgreSQL connected with TypeORM
+- PostgreSQL connected with an ORM
 
 The architecture will be split between frontend and backend into two separate repositories (no mono-repo). The communication should be implemented using a RESTful API.
 
