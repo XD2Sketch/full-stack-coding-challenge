@@ -30,6 +30,7 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 - If the user clicks on the “X” button inside the table, then the frontend request the backend to delete the entry from the database
 - Only PDF, DOCX and DOC files are allowed to be uploaded
 - The following metadata should be stored: file name, file size, last modified, file format (doc, docx or pdf)
+- The frontend doesn't have to be responsive or pixel perfect, we will mainly pay attention to if it's functionally working
 
 
 ## Boilerplates to get you started
@@ -48,6 +49,9 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 - TypeScript
 - Usage of modern js functionality (ES6+)
 - README how your stuff works
+- Conventional Commit Messages
+- Clean code (run linters, prettier)
+- ESM over CommonJS (also backend if possible)
 
 #### Frontend:
 - NextJS + State Management (ContextAPI/Redux/MobX/xState, … knock yourself out)
@@ -61,14 +65,7 @@ You’ll be building a tool that allows users to upload metadata (file name, fil
 - Async/Await
 
 ### Nice to have
-- Clean code (run linters, prettier)
-- Conventional Commit Messages
 - Gitflow Branch Naming
-- Swagger
-- ESM over CommonJS (also backend if possible)
-
-### Very nice to have:
-- Github Actions to run linting and tests
 
 ### General Stuff:
 - How you split code for components
